@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0
+}
+.navigation{
+    text-align:center;
+    background-color:orange;
+    height:175px;
+    width:auto;
+}
+.navigation li{
+    display:inline-block;
+    margin:25px 80px;
+    padding:5px;
+    font-size:18px;
+    color:white;
+}
+.navigation li img{
+    width:75px;
+    height:75px
+}
+li:hover{
+    background-color: dodgerblue;
+    transition:1s ease;
+}
+/*Middle section */
+nav img{
+    width:350px;
+    height:350px;
+}
+section img{
+    height:500px;
+    width:500px;
+    margin-left:150px
+
+}
+section input{
+    height:60px;
+    width:301px;
+    left:1500px;
+    top:200px;
+    right:1276px;
+    bottom:178px;
+    position:absolute;
+    font-size:25px;
+    box-shadow:5px 5px grey;
+
+}
+section p{
+    position:relative;
+    height:100px;
+    width:500px;
+    left:1450px;
+    top:-250px;
+    font-family: monospace;
+    font-size:40px;
+    color:orange;
+}
+/*bottom section*/
+section p strong{
+    color:deepskyblue;
+}
+.bottom{
+    background-color:deepskyblue;
+    height:232px;
+    width:auto;
+    
+}
+.bottom ul{
+    text-align:center;
+}
+.bottom img{
+    display:inline-block;
+    width:55px;
+    height:55px;
+    padding:10px;
+    margin-right:25px;
+    
+}
